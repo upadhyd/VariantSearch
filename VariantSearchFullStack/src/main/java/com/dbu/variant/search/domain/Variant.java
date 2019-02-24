@@ -1,5 +1,6 @@
 package com.dbu.variant.search.domain;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
@@ -30,8 +31,10 @@ public class Variant {
   private String genomicStart;
   private String genomicStop;
   private String ref;
+  @Column(length=1100)
   private String alt;
   private String accession;
+  @Column(length=1100)
   private String reportedRef;
   private String reportedAlt;
   
