@@ -1,6 +1,6 @@
 # Variant Search
 
-# Spring Boot Server Side project
+# Server Side Spring Boot project
 
 ## Environment Setup for Spring Boot Server Side Project:
 
@@ -20,4 +20,22 @@
 1. As we are using in memory h2-database, the data should already be pre-loaded.
 2. Use curl or your favourite clent to make the following call:
 
-`curl -X GET \ http://localhost:8080/api/variant/BRAF \ -H 'Content-Type: application/json'`
+   `curl -X GET \ http://localhost:8080/api/variant/BRAF \ -H 'Content-Type: application/json'`
+
+# Client Side React App
+
+## Environment Setup For React Web App
+
+1. Download and install [node.js](https://nodejs.org/en/download/)
+2. Navigate to [varaiant-search](https://github.com/upadhyd/VariantSearch/tree/master/varaiant-search)
+3. Install npm packages by executing `npm install`
+
+## Starting up the client server
+
+1. Execute the command `npm start` to launch the React webapp.
+
+## UI
+
+### Autocomplete
+
+### Display Table
