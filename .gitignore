@@ -18,21 +18,6 @@ bin/
 *.policy
 *Servers
 
-*.html
-*.gif
-*.png
-*.prefs
-*.name
-*.component
-*.css
-*.js
-*.index
-*.policy
-*.cache
-*.txt
-*.dat
-*.ini
-
 
 .metadata/.lock
 
@@ -63,10 +48,6 @@ bin/
 *.resources
 
 *.MF
-
-v2/messages/.classpath
-
-v2/messages/.settings/org.eclipse.wst.common.project.facet.core.xml
 
 .idea/*
 
