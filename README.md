@@ -12,4 +12,12 @@
 ## Starting up the server
 
 1. Navigate to (https://github.com/upadhyd/VariantSearch/tree/master/VariantSearchFullStack) on your local.
-2. Execute _mvn clean install_
+2. Execute `mvn clean install`
+3. Start the server `java -jar target/variant-search-rest-service-0.0.1-SNAPSHOT.jar`
+
+## Api Calls
+
+1. As we are using in memory h2-database, the data should already be pre-loaded.
+2. Use curl or your favourite clent to make the following call:
+
+`curl -X GET \ http://localhost:8080/api/variant/BRAF \ -H 'Content-Type: application/json'`
