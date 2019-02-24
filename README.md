@@ -38,8 +38,8 @@
 
 ### Autocomplete
 
-Format: ![AutoComplete](https://github.com/upadhyd/VariantSearch/blob/master/variant-search-autosuggest.PNG)
+![AutoComplete](https://github.com/upadhyd/VariantSearch/blob/master/variant-search-autosuggest.PNG)
 
 ### Display Table
 
-Format: ![Display Table](https://github.com/upadhyd/VariantSearch/blob/master/Variant-search-search-result.PNG)
+![Display Table](https://github.com/upadhyd/VariantSearch/blob/master/Variant-search-search-result.PNG)
