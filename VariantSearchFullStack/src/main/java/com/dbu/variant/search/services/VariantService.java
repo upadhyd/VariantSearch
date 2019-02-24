@@ -18,11 +18,11 @@ public class VariantService {
   private VariantRepository variantRepository;
   
   public List<Variant> getByGeneName(String gene) {
-    return variantRepository.findByGene(gene);
+    return variantRepository.findByGene(gene.toUpperCase());
   }
   
   public Suggestions search(String keyword) {
-    Set<String> suggestions = variantRepository.search(keyword);
+    Set<String> suggestions = variantRepository.search(keyword.toUpperCase());
     int n = suggestions.size() > 7 ? 7 : suggestions.size();
     Set<String> subSet = suggestions.stream()
         .limit(20)

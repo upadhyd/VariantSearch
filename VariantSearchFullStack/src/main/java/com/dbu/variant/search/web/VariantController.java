@@ -39,7 +39,7 @@ public class VariantController {
   
   @GetMapping(SEARCH)
   public Suggestions search(@RequestParam("term") String term) {
-      return variantService.search(term);
+      return variantService.search(term.toUpperCase());
   }
 
 }
