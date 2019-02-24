@@ -1,12 +1,9 @@
 import React, { Component } from "react";
 import axios from "axios";
 import Suggestions from "./Suggestions";
-import classnames from "classnames";
 import DisplayTable from "./DisplayTable";
 
-const API_KEY = "a7a1b7c4fb072d59cf455485621ef479";
 const API_URL = "http://localhost:8080/api/variant/search";
-const API_VAL = "BRAF";
 
 class Search extends Component {
   constructor() {
